@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/normalize.css" />
+  </head>
+  <body>
+    <main class="main">
+      <section class="left">
+        <div class="image">
+          <div class="bg-color">
+            <div class="content">
+              <img
+                class="content__image"
+                src="/img/odin-lined.png"
+                alt="oding project logo"
+              />
+              <h1 class="content__title">odin</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="right">
+        <div class="container">
+          <div>
+            <p class="text">
+              this is not a real online service! You know you need something
+              like this in your life to help you realize your deepest dreams.
+              Sign up now to get started.
+            </p>
+            <p class="text">Your <em>know</em> you want to.</p>
+        </div>
+      
+
+        <form class="form">
+          <div class="form-bg">
+            <div>
+              <legend>Let's do this!</legend>
+              <div class="fields-container">
+                <div class="field">
+                  <label class="label" id="firstName" for="first-name"
+                    >first name</label
+                  >
+                  <input
+                    class="field field-input"
+                    type="text"
+                    id="first-name"
+                    name="first_Name"
+                    autocomplete="name"
+                  />
+                </div>
+
+                <div class="field">
+                  <label class="label" id="lastName" for="last-name"
+                    >last name</label
+                  >
+                  <input
+                    class="field field-input"
+                    type="text"
+                    id="last-name"
+                    name="last_Name"
+                    autocomplete="name"
+                  />
+                </div>
+
+                <div class="field">
+                  <label class="label" id="mail" for="email">Email</label>
+                  <input
+                    class="field field-input"
+                    type="email"
+                    id="email"
+                    name="Email"
+                    autocomplete="name"
+                  />
+                </div>
+
+                <div class="field">
+                  <label class="label" id="phoneNum" for="phoneNumber"
+                    >phone number</label
+                  >
+                  <input
+                    class="field field-input"
+                    type="number"
+                    id="phoneNumber"
+                    name="phone-number"
+                    autocomplete="name"
+                  />
+                </div>
+
+                <div class="field fieldMargin">
+                  <label class="label" id="keyword" for="password"
+                    >password</label
+                  >
+                  <div class="password-field">
+                    <input
+                      class="field field-input"
+                      type="password"
+                      id="password"
+                      name="Password"
+                      minlength="8"
+                      autocomplete="name"
+                    />
+                    <button class="password-button" id="btnPassword">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-eye-off"
+                        width="28"
+                        height="28"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="#000000"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M10.585 10.587a2 2 0 0 0 2.829 2.828" />
+                        <path
+                          d="M16.681 16.673a8.717 8.717 0 0 1 -4.681 1.327c-3.6 0 -6.6 -2 -9 -6c1.272 -2.12 2.712 -3.678 4.32 -4.674m2.86 -1.146a9.055 9.055 0 0 1 1.82 -.18c3.6 0 6.6 2 9 6c-.666 1.11 -1.379 2.067 -2.138 2.87"
+                        />
+                        <path d="M3 3l18 18" />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-eye"
+                        width="28"
+                        height="28"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="#000000"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+                        <path
+                          d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="output"></div>
+                </div>
+
+                <div class="field">
+                  <label
+                    class="label"
+                    id="confirm-keyword"
+                    for="confirm-password"
+                    >confirm password</label
+                  >
+                  <div class="password-field">
+                    <input
+                      class="field field-input"
+                      type="password"
+                      id="confirm-password"
+                      name="confirm_password"
+                      minlength="8"
+                      autocomplete="name"
+                    />
+                    <button class="password-button" id="btnConfirmPassword">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-eye-off confirmPasswordIconOff"
+                        width="28"
+                        height="28"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="#000000"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M10.585 10.587a2 2 0 0 0 2.829 2.828" />
+                        <path
+                          d="M16.681 16.673a8.717 8.717 0 0 1 -4.681 1.327c-3.6 0 -6.6 -2 -9 -6c1.272 -2.12 2.712 -3.678 4.32 -4.674m2.86 -1.146a9.055 9.055 0 0 1 1.82 -.18c3.6 0 6.6 2 9 6c-.666 1.11 -1.379 2.067 -2.138 2.87"
+                        />
+                        <path d="M3 3l18 18" />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-eye confirmPasswordIcon"
+                        width="28"
+                        height="28"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="#000000"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+                        <path
+                          d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="output"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="button">
+            <input class="btn" type="submit" value="Create Account" id="submitBtn"/>
+          </div>
+        </form>
+        <div>
+          <p class="txt">Already have an account? <a href="#">Log in</a></p>
+        </div>
+      </div>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
