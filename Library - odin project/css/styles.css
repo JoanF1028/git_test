@@ -1,0 +1,173 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+    font-size: 16px;
+    background-image: url(/img/library.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+h1 {
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-size: 3.5rem;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+@media (min-width: 992px) {
+    .flex {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .top {
+        margin-top: 12rem;
+    }
+}
+.top {
+    margin-bottom: 13rem;
+}
+#btn {
+    background-color: #50A7E6;
+    border: none;
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 90%;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#btn:hover {
+    background-color: white;
+    color: #50A7E6;
+    border: 5px solid #50A7E6;
+    transition: .3s;
+}
+@media (min-width: 768px) {
+    #btn {
+        width: auto;
+    }
+}
+
+#modal {
+    padding: 2rem;
+    border: none;
+    border-radius: 2rem;
+    width: 90%;
+}
+@media (min-width: 480px) {
+    #modal {
+        padding: 8rem;
+    }
+}
+
+#form {
+    display: grid;
+    place-content: center;
+    gap: 2rem;
+    width: 100%;
+}
+@media (min-width: 768px) {
+    #form {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+.field {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.checkbox {
+    width: auto;
+}
+.div-field--checkbox {
+    display: inline;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+.field--submit,
+.field--close {
+    color: white;
+    border: none;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.field--submit{
+    background-color: green;
+}
+.field--close {
+    background-color: red;
+}
+.title {
+    color: white;
+    font-size: 5rem;
+}
+
+#close, 
+#save,
+#btn:hover {
+    cursor: pointer;
+}
+.label-isbn {
+    text-transform: uppercase;
+}
+#books-container {
+    width: 60rem;
+    height: 60rem;
+    overflow: auto;
+    padding: 1rem;
+}
+.delete {
+    background-color: red;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    border: none;
+}
+.checkbox {
+    transform: scale(2); /* Scale the checkbox to twice its original size */
+    margin-left: 1rem;
+}
+.label {
+    font-size: 2rem;
+    margin-right: 1rem;
+    font-weight: 700;
+}
+.label,
+.checkbox {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.books-container {
+    width: 90%;
+    margin: 0 auto;
+}

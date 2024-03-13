@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Library</title>
+  </head>
+  <body>
+    <div class="flex">
+      <div class="top">
+        <header>
+          <h1>Library</h1>
+        </header>
+
+        <div class="btn-container">
+          <button id="btn">Add a new book</button>
+        </div>
+      </div>
+
+      <dialog id="modal">
+        <div class="container">
+          <h2>Write your book info</h2>
+          <form id="form">
+                <div class="div-field">
+                    <label class="label" for="bookname">Book Name</label>
+                    <input class="field" type="text" id="bookname" />
+                  </div>
+      
+                  <div class="div-field">
+                    <label class="label" for="author">Author</label>
+                    <input class="field" type="text" id="author" />
+                  </div>
+            
+
+            <div class="div-field">
+              <label class="label" for="pages">Pages</label>
+              <input class="field" type="text" id="pages" />
+            </div>
+
+
+            <div class="div-field">
+                <label class="label label-isbn" for="isbn">isbn</label>
+                <input class="field" type="text" id="isbn" />
+              </div>
+
+            
+
+            <div class="div-field">
+              <input
+                class="field field--submit"
+                type="submit"
+                id="save"
+                value="save"
+              />
+            </div>
+
+            <div class="div-field">
+              <input
+                class="field field--close"
+                type="submit"
+                id="close"
+                value="X Close"
+              />
+            </div>
+          </form>
+        </div>
+      </dialog>
+
+      <main>
+        <section>
+          <h2 class="title">Your Saved Books</h2>
+          <div id="books-container"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="/js/app.js"></script>
+  </body>
+</html>
