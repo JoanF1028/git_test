@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 16px;
+}
+
+.container {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    gap: 5rem;
+}
+@media (min-width: 768px) {
+    .container {
+        display: flex;
+        margin: auto;
+    }
+    .form-container {
+        width: 50%;
+    }
+    .right {
+        width: 50%;
+    }
+}
+
+#form {
+    padding: 2rem;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.field {
+    margin-bottom: 2rem;
+}
+.label {
+    font-size: 2rem;
+}
+.input {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1.5rem;
+}
+.input-check {
+    width: 2rem;
+    height: 2rem;
+}
+
+.label-low {
+    color: green;
+}
+.label-medium {
+    color: orange;
+}
+.label-high {
+    color: red;
+}
+.submitBtncontainer {
+    text-align: center;
+}
+
+.submitBtn {
+    padding: 1rem;
+    width: 100%;
+}
+.containerDiv {
+    border-bottom: 1px solid black;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
